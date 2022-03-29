@@ -1,0 +1,17 @@
+.gallery {
+    float: left;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.gallery li img{
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+.img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
