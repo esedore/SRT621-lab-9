@@ -40,10 +40,10 @@ body {
 }
 .header{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    padding-top: -10px;
-    padding: 10px 10px;
     background-color: wheat;
+    padding: 2px 2px;
     border: 2px solid rgb(0, 0, 0);
+    align: center;
 }
 ul {
     text-align: center;
