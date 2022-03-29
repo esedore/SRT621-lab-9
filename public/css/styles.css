@@ -1,5 +1,5 @@
 .gallery {
-    float: left;
+    padding-left: 5%;
     display: flex;
     align-items: center;
     margin: auto;
@@ -9,9 +9,35 @@
     width: 60%;
     height: auto;
     border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .img {
     display: inline-block;
     width: 100%;
     height: auto;
 }
+body {
+    background-color: #44d1be;
+  }
+.fullImg{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    width: 41%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.backLink {
+    text-decoration: none;
+    background-color: wheat;
+    padding: 10px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 8%;
+}
+ul {
+    text-align: center;
+    }
+    
+    li {
+    display: inline-block;
+    }
